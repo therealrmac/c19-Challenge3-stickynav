@@ -1,0 +1,23 @@
+body{
+	background-color: lightgreen;
+}
+header{
+	font-size: 40px;
+	margin-top: 50px;
+}
+li,a{
+	text-decoration: none;
+	list-style: none;
+}
+nav{
+	border: 2px solid;
+}
+nav,li,a{
+	display: inline;
+	padding: 15px 15px;
+}
+.sticky{
+	position: fixed;
+	z-index: 10;
+	background-color: skyblue;
+}
